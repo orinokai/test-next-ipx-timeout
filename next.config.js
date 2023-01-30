@@ -2,12 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    formats: ['image/avif', 'image/webp'],
+    formats: ['image/webp'],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'outreach.stg.pxlp.dev',
-        pathname: '/assets/**',
+        hostname: 'images.unsplash.com',
       },
     ],
   },
